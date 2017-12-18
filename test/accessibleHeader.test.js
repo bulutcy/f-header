@@ -1,5 +1,5 @@
-import header from '../src/js/index';
 import TestUtils from 'js-test-buddy';
+import header from '../src/js/accessibleHeader';
 
 
 describe('module', () => {
