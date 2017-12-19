@@ -27,7 +27,6 @@
   "dependencies": {
     "@justeat/fozzie-colour-palette": "^0.6.0",
     "@kickoff/utils.scss": "^2.1.1",
-    "babel-plugin-add-module-exports": "^0.2.1",
     "handlebars": "^4.0.11",
     "include-media": "^1.4.9",
     "lite-ready": "^1.0.4"
@@ -76,6 +75,6 @@
   },
   "assets": {
     "root": "src/",
-    "glob": "img/**/*"
+    "glob": "{img,templates}/**/*"
   }
 }
