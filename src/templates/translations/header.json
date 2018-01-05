@@ -8,12 +8,10 @@
         "logoutLinkText": "Log ud",
         "skipToMainContentText": "",
         "AccountInfo": "Brugerinformation",
-        "AccountOrderHistory": "",
-        "AccountCredit": "",
+        "AccountOrderHistory": "Ordre",
+        "AccountCredit": "Gavekort saldo",
         "PaymentMethods": "",
-        "DeliveryAddresses": "",
-        "RedeemVoucher": "",
-        "ContactPreferences": ""
+        "DeliveryAddresses": "Leveringsadresse"
     },
     "en-CA": {
         "companyName": "Just Eat",
@@ -24,12 +22,10 @@
         "logoutLinkText": "Log out",
         "skipToMainContentText": "Skip to main content",
         "AccountInfo": "Account info",
-        "AccountOrderHistory": "",
-        "AccountCredit": "",
-        "PaymentMethods": "",
-        "DeliveryAddresses": "",
-        "RedeemVoucher": "",
-        "ContactPreferences": ""
+        "AccountOrderHistory": "Orders",
+        "AccountCredit": "Account credit",
+        "PaymentMethods": "Payment methods",
+        "DeliveryAddresses": "Delivery addresses"
     },
     "en-GB": {
         "companyName": "Just Eat",
@@ -40,12 +36,11 @@
         "logoutLinkText": "Log out",
         "skipToMainContentText": "Skip to main content",
         "AccountInfo": "Your account",
-        "AccountOrderHistory": "",
-        "AccountCredit": "",
-        "PaymentMethods": "",
-        "DeliveryAddresses": "",
-        "RedeemVoucher": "",
-        "ContactPreferences": ""
+        "AccountOrderHistory": "Your orders",
+        "PaymentMethods": "Your saved cards",
+        "DeliveryAddresses": "Your address book",
+        "RedeemVoucher": "Redeem a voucher",
+        "ContactPreferences": "Contact preference"
     },
     "en-IE": {
         "companyName": "Just Eat",
@@ -56,12 +51,10 @@
         "logoutLinkText": "Log out",
         "skipToMainContentText": "Skip to main content",
         "AccountInfo": "Account info",
-        "AccountOrderHistory": "",
-        "AccountCredit": "",
-        "PaymentMethods": "",
-        "DeliveryAddresses": "",
-        "RedeemVoucher": "",
-        "ContactPreferences": ""
+        "AccountOrderHistory": "Orders",
+        "AccountCredit": "Account credit",
+        "PaymentMethods": "Payment methods",
+        "DeliveryAddresses": "Delivery addresses"
     },
     "es-ES": {
         "companyName": "Just Eat",
@@ -72,12 +65,10 @@
         "logoutLinkText": "Salir",
         "skipToMainContentText": "",
         "AccountInfo": "Información de la cuenta",
-        "AccountOrderHistory": "",
-        "AccountCredit": "",
+        "AccountOrderHistory": "Pedidos",
+        "AccountCredit": "Crédito de la cuenta",
         "PaymentMethods": "",
-        "DeliveryAddresses": "",
-        "RedeemVoucher": "",
-        "ContactPreferences": ""
+        "DeliveryAddresses": "Direcciones de reparto"
     },
     "fr-CA": {
         "companyName": "Just Eat",
@@ -88,12 +79,10 @@
         "logoutLinkText": "Fermer la session",
         "skipToMainContentText": "",
         "AccountInfo": "Informations de compte",
-        "AccountOrderHistory": "",
-        "AccountCredit": "",
-        "PaymentMethods": "",
-        "DeliveryAddresses": "",
-        "RedeemVoucher": "",
-        "ContactPreferences": ""
+        "AccountOrderHistory": "Commandes",
+        "AccountCredit": "Crédit du compte",
+        "PaymentMethods": "Modes de paiement",
+        "DeliveryAddresses": "Addresse de livraison"
     },
     "it-IT": {
         "companyName": "Just Eat",
@@ -104,12 +93,10 @@
         "logoutLinkText": "Esci",
         "skipToMainContentText": "",
         "AccountInfo": "Account",
-        "AccountOrderHistory": "",
-        "AccountCredit": "",
-        "PaymentMethods": "",
-        "DeliveryAddresses": "",
-        "RedeemVoucher": "",
-        "ContactPreferences": ""
+        "AccountOrderHistory": "Ordini",
+        "AccountCredit": "Credito dell'account",
+        "PaymentMethods": "Metodi di pagamento",
+        "DeliveryAddresses": "Indirizzi di consegna"
     },
     "nb-NO": {
         "companyName": "Just Eat",
@@ -120,11 +107,9 @@
         "logoutLinkText": "Logg ut",
         "skipToMainContentText": "",
         "AccountInfo": "Kontoinformasjon",
-        "AccountOrderHistory": "",
-        "AccountCredit": "",
+        "AccountOrderHistory": "Ordre",
+        "AccountCredit": "Gavekort saldo",
         "PaymentMethods": "",
-        "DeliveryAddresses": "",
-        "RedeemVoucher": "",
-        "ContactPreferences": ""
+        "DeliveryAddresses": "Leveringsadresse"
     }
 }
