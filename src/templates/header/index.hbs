@@ -48,11 +48,13 @@
                     </li>
 
                     {{#if isMultiLingual}}
-                        {{#each alternativeLanguages}}
+                        {{#each alternativeLanguages as | lang |}}
                         <li class="c-nav-list-item u-showAboveMid" data-test-id="languageToggle">
-                            <a href="{{ this.returnUrl }}" class="c-nav-list-link">
-                                <span class="is-visuallyHidden">{{ this.accessibleText }}</span>
-                                {{ this.linkText }}
+                            <a href="{{ lang.returnUrl }}" class="c-nav-list-link">
+                                <span class="is-visuallyHidden">
+                                    {{#with ../this}}{{ i18n "language_switcher_accessibility" language=lang.name }}{{/with}}
+                                </span>
+                                {{#with ../this}}{{ i18n "language_switcher_name" language=lang.name }}{{/with}}
                             </a>
                         </li>
                         {{/each}}

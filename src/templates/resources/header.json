@@ -25,7 +25,9 @@
         "AccountOrderHistory": "Orders",
         "AccountCredit": "Account credit",
         "PaymentMethods": "Payment methods",
-        "DeliveryAddresses": "Delivery addresses"
+        "DeliveryAddresses": "Delivery addresses",
+        "language_switcher_accessibility": "Change the language to",
+        "language_switcher_name": "English"
     },
     "en-GB": {
         "companyName": "Just Eat",
@@ -82,7 +84,9 @@
         "AccountOrderHistory": "Commandes",
         "AccountCredit": "Crédit du compte",
         "PaymentMethods": "Modes de paiement",
-        "DeliveryAddresses": "Addresse de livraison"
+        "DeliveryAddresses": "Addresse de livraison",
+        "language_switcher_accessibility": "Changer la langue pour le",
+        "language_switcher_name": "Français"
     },
     "it-IT": {
         "companyName": "Just Eat",
