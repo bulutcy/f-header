@@ -1,6 +1,8 @@
 {{> skip-to }}
 
 <header class="c-header">
+    {{> language-switcher }}
+
     <div class="l-container c-header-wrap">
         {{> logo }}
 
@@ -20,48 +22,27 @@
                             <span data-email class="c-nav-list-text-sub u-showBelowMid"></span>
                         </p>
 
-                        <ul class="c-nav-popoverList">
-                            {{#each navigationLinks as | link |}}
-                            <li class="c-nav-list-item">
-                                <a class="c-nav-list-link"
-                                   data-gtm="header|click - navigation|{{ link.gtmSuffix }}"
-                                   data-test-id="{{link.dataTestId}}"
-                                   href="{{ link.href }}">{{#with ../this}}{{ i18n link.label }}{{/with}}</a>
-                            </li>
-                            {{/each}}
-
-                            <li class="c-nav-list-item c-nav-list-item--forceLast">
-                                <a class="c-nav-list-link"
-                                    data-gtm="header|click - navigation|logout"
-                                    data-test-id="logout"
-                                    href="{{ logoutUrl }}">{{ i18n "logoutLinkText" }}</a>
-                            </li>
-                        </ul>
+                        {{> nav-sub-links }}
                     </li>
 
                     <li data-login class="c-nav-list-item is-hidden" data-test-id="login">
-                        <a href="{{ loginUrl }}" class="c-nav-list-link">{{ i18n "loginLinkText" }}</a>
+                        <a href="{{ loginUrl }}" class="c-nav-list-link">
+                            {{ i18n "loginLinkText" }}
+                        </a>
                     </li>
 
                     <li class="c-nav-list-item is-hidden is-shown--noJS" data-test-id="noscript-myaccount">
-                        <a href="{{ loginUrl }}" class="c-nav-list-link">{{ i18n "loginNoScriptLinkText" }}</a>
+                        <a href="{{ loginUrl }}" class="c-nav-list-link">
+                            {{ i18n "loginNoScriptLinkText" }}
+                        </a>
                     </li>
 
-                    {{#if isMultiLingual}}
-                        {{#each alternativeLanguages as | lang |}}
-                        <li class="c-nav-list-item u-showAboveMid" data-test-id="languageToggle">
-                            <a href="{{ lang.returnUrl }}" class="c-nav-list-link">
-                                <span class="is-visuallyHidden">
-                                    {{#with ../this}}{{ i18n "language_switcher_accessibility" language=lang.name }}{{/with}}
-                                </span>
-                                {{#with ../this}}{{ i18n "language_switcher_name" language=lang.name }}{{/with}}
-                            </a>
-                        </li>
-                        {{/each}}
-                    {{/if}}
+                    {{> nav-alternate-languages }}
 
                     <li class="c-nav-list-item c-nav-list-item--support" data-test-id="support">
-                        <a href="{{ helpUrl }}" data-gtm="header|click - navigation|help" class="c-nav-list-link">{{ i18n "helpLinkText" }}</a>
+                        <a href="{{ helpUrl }}" data-gtm="header|click - navigation|help" class="c-nav-list-link">
+                            {{ i18n "helpLinkText" }}
+                        </a>
                     </li>
                 </ul>
             </div>
