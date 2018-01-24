@@ -50,7 +50,7 @@
     "exports": false
   },
   "scripts": {
-    "prepare": "concurrently -n 'lint,compile,test' -c 'blue,yellow,green' 'yarn lint' 'yarn compile' 'yarn test' --kill-others-on-fail",
+    "prepare": "concurrently -n \"lint,compile,test\" -c \"blue,yellow,green\" \"yarn lint\" \"yarn compile\" \"yarn test\" --kill-others-on-fail",
     "lint": "yarn run lint:css && yarn run lint:js",
     "lint:css": "gulp scss:lint --prod",
     "lint:js": "gulp scripts:lint --prod",
