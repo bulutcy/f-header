@@ -73,8 +73,15 @@
       "src/js/**/*.{js,jsx}"
     ]
   },
-  "assets": {
-    "root": "src/",
-    "glob": "{img,templates}/**/*"
-  }
+  "assets": [
+    {
+      "root": "src/",
+      "glob": "img/**/*"
+    },
+    {
+      "root": "src/",
+      "glob": "templates/**/*",
+      "dest": "./"
+    }
+  ]
 }
