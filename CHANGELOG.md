@@ -4,12 +4,63 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 
-v0.12.0
+v0.14.0
 ------------------------------
-*January 08, 2018*
+*January 29, 2018*
+
+### Changed
+- Updated `browserslist`
+- Updated package dependencies (minor updates)
+
+
+v0.13.0
+------------------------------
+*January 22, 2018*
 
 ### Added
--
+- Added `skipTo` SCSS partial.
+
+### Changed
+- Prefixed component classes with `c-`.
+
+
+v0.12.0
+------------------------------
+*January 17, 2018*
+
+### Added
+- `dangerfile.js` added to check PRs via Travis
+
+### Changed
+- Updated `gulp-build-fozzie` and `fozzie-colour-palette` versions
+- Updated `js-test-buddy` and associated test references
+
+
+v0.11.4
+------------------------------
+*January 16, 2018*
+
+### Changed
+- Changed `concurrently` task to use escaped quotes as single quotes do not work on Windows.
+
+
+v0.11.3
+------------------------------
+*January 12, 2018*
+
+### Added
+- Using concurrently to run npm scripts concurrently...!
+
+
+v0.11.2
+------------------------------
+*January 09, 2018*
+
+### Added
+- Added the changelog.
+
+### Changed
+- Replaced babel ES2015 preset with env preset.
 
 
 v0.11.1

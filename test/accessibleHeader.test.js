@@ -22,7 +22,8 @@ describe('header', () => {
         header();
 
         // Assert
-        expect(TestUtils.getBodyHtml()).toMatchSnapshot();
+        const html = TestUtils.getBodyHtml();
+        expect(html).toMatchSnapshot();
     });
 
     it('adds `is-visible` class to nav container', () => {
@@ -38,7 +39,8 @@ describe('header', () => {
         TestUtils.click(button)
 
         // Assert
-        expect(TestUtils.getBodyHtml()).toMatchSnapshot();
+        const html = TestUtils.getBodyHtml();
+        expect(html).toMatchSnapshot();
     });
 
     it('adds `is-open` class to nav label', () => {
@@ -54,7 +56,8 @@ describe('header', () => {
         TestUtils.click(button)
 
         // Assert
-        expect(TestUtils.getBodyHtml()).toMatchSnapshot();
+        const html = TestUtils.getBodyHtml();
+        expect(html).toMatchSnapshot();
     });
 
     it('does nothing if nav input does not exist', () => {
@@ -71,7 +74,8 @@ describe('header', () => {
         TestUtils.click(button)
 
         // Assert
-        expect(TestUtils.getBodyHtml()).toMatchSnapshot();
+        const html = TestUtils.getBodyHtml();
+        expect(html).toMatchSnapshot();
     });
 
 });
